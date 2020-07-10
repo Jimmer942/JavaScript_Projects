@@ -1,0 +1,50 @@
+@charset "UTF-8";
+		body {
+            background-image: url(assets/background_stars.jpg);   
+            font-family: 'Lato', sans-serif;;    
+            color: bisque; 
+		}
+       .contenedor { 
+         margin: auto; 
+	     max-width: 800px;
+         min-height: 600px; 
+		 } 
+        h2 {
+			margin-top: 10px; 
+            padding-top: 20px; 
+            margin-left: 20px;
+            font-size: 36px;
+			font-style: normal;
+			font-weight: normal;
+			text-align: center;
+	        text-shadow: 1px 1px burlywood;
+		}
+       .texto {
+         position: relative;
+         padding-left: 40px;
+         padding-right: 75px;
+         padding-top: 25px;
+	     width: 360px;
+		 text-align: justify; 
+		 font-size: 20px;
+		 }
+		.juegoPhaser {	
+		 box-shadow: 10px 15px 15px 0 rgba(27, 27, 27, 0.8); 
+	     margin-left: 30px;
+	     width: 320px;
+         } 
+
+
+@media only screen and (min-width: 780px) {  
+	 .texto {
+		 margin-top: -450px; 
+		 margin-left: 360px;
+         }
+    img { 
+        position: relative;
+        margin-top: 10px;
+		margin-left: 420px;
+    }
+         
+    }
+    
